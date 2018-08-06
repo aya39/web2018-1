@@ -1,9 +1,10 @@
-function sayhello68(){
-alert('Hello,'+document.getElementByld('who').innerHTML+'!');
+function dinner(){
+document.getElementByld('myImage').src=`./syasinn/yoru.jpg`;
 }
-function taro(){
-  document.getElementByld('who').innerHTML='太郎';
+function charset(){
+document.getElementByld('myImage').src=`./syasinn/yoru2.jpg`;
+
 }
-function hanako(){
-  document.getElementByld('who').innerHTML='花子';
+function paredo(){
+document.getElementByld('myImage').src=`./syasinn/yoru3.jpg`;
 }
