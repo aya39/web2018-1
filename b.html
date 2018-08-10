@@ -7,9 +7,9 @@
   <title>自己紹介</title>
 
   <img src="gazou.jpg" alt="ライオンのイラストです">
-
-
   <link rel="stylesheet" href="mystyle1.css">
+<script src="abc.js"></script>
+
   <!--この行を追加-->
 
 </head>
@@ -67,11 +67,41 @@
 
 東京ディズニーランド☟<br>
 
-<img id="myImage" src="./syasinn/yoru.jpg" alt="bulb image" class="bulb">
 
-<input type="button" value="ディナーショー" onclick="dinner();">
-<input type="button" value="キャラクターたち" onclick="charset();">
-<input type="button" value="パレード" onclick="paredo();">
+
+<html>
+ <head>
+ <title>クリックして画像を切り替える</title>
+ </head>
+ <body>
+
+ <table border="0" width="470" cellpadding="0" cellspacing="0">
+ <tr>
+ <td width="120">
+ <a href="javascript:document.ph01.src = './image/yoru.jpg'; void(0);">
+ <img src="image/yoru.jpg" width="100" height="70"
+ alt="bulb image" border="0"></a><br>
+
+ <a href="javascript:document.ph01.src = './image/yoru2.jpg'; void(0);">
+ <img src="image/yoru2.jpg" width="100" height="70"
+ alt="bulb image" border="0" vspace="10"></a><br>
+
+ <a href="javascript:document.ph01.src = './image/yoru3.jpg'; void(0);">
+ <img src="image/yoru3.jpg" width="100" height="70"
+ alt="bulb image" border="0"></a><br></td>
+
+ <td width="350" align="right"><img src="./image/yoru.jpg"
+ width="329" height="230" alt="拡大写真" name="ph01"></td>
+ </tr>
+ </table>
+
+ </body>
+ </html>
+
+
+
+
+</script> 
 
 
 </body>

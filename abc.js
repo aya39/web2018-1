@@ -1,10 +1,14 @@
-function dinner(){
-document.getElementByld('myImage').src=`./syasinn/yoru.jpg`;
+function showimg1(){
+document.area1.src="yoru.jpg";
 }
-function charset(){
-document.getElementByld('myImage').src=`./syasinn/yoru2.jpg`;
+function showimg2() {
+  document.area2.src="yoru2.jpg";
 
 }
-function paredo(){
-document.getElementByld('myImage').src=`./syasinn/yoru3.jpg`;
+function showimg3() {
+  document.area3.src="yoru3.jpg";
 }
+
+
+
+
